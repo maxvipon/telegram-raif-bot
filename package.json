@@ -1,0 +1,30 @@
+{
+  "name": "raif-telegram-bot",
+  "version": "0.1.0",
+  "description": "Telegram Bot for Raiffeisen Bank exchange rate",
+  "author": "Maxim Ponomarev <maxvipon@gmail.com>",
+  "main": "bot.js",
+  "scripts": {
+    "test": "eslint ./"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "botanio": "0.0.6",
+    "bunyan": "^1.8",
+    "bunyan-prettystream": "^0.1",
+    "chalk": "^1.1",
+    "got": "^6.7",
+    "node-telegram-bot-api": "^0.25"
+  },
+  "devDependencies": {
+    "eslint": "^3.12",
+    "eslint-config-xo": "^0.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxvipon/raif-telegram-bot.git"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}

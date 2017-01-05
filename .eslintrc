@@ -1,0 +1,12 @@
+{
+  "extends": "eslint-config-xo",
+  "rules": {
+    "indent": [2, 4],
+    "camelcase": 0,
+    "no-multi-spaces": 0
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}

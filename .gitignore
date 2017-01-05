@@ -1,0 +1,4 @@
+.DS_*
+.idea
+.sync-config.cson
+node_modules
